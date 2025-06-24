@@ -20,6 +20,12 @@ const nextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'scontent.fbdo1-1.fna.fbcdn.net', // ← Tambahkan ini!
+        port: '',
+        pathname: '/**',
+      },
       // Tambahkan domain eksternal lain di sini jika diperlukan, contoh:
       // {
       //   protocol: 'https',
