@@ -11,13 +11,15 @@ export default function AboutPage() {
       <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-16">
         <div className="w-full md:w-1/3 flex flex-col items-center">
           <div className="relative w-64 h-64 rounded-full overflow-hidden shadow-xl mb-6 border-4 border-accent"> {/* Border warna accent */}
-            <Image
-              src="https://scontent.fbdo1-1.fna.fbcdn.net/v/t39.30808-6/510696567_2409814969376130_3257008856448179887_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG57bzEVQ8V43PqCwPrL9zy8tTvz31l48Ly1O_PfWXjwhdWuNELzN9kiNpjXIpsEwBBt7C6omdI4QMbJldqPKbO&_nc_ohc=HyvQavIiYHEQ7kNvwFAydKe&_nc_oc=AdmcPqWW2bFvSWsnDFx0ID-u38rHWHLvVD9HUYP0zKwiRXlT72GehiI_WeYOZU4S9Ho&_nc_zt=23&_nc_ht=scontent.fbdo1-1.fna&_nc_gid=KqukgdMv_FNEjpYrGnCx9Q&oh=00_AfOGAWERHGaGnhLY5T-clmICjHR6S0cbZWmCrT_0UDk_dw&oe=68609E3D"
-              alt="TreeSetia - About Me"
-              layout="fill"
-              objectFit="cover"
-              className="transition-transform duration-300 hover:scale-105"
-            />
+            <div className="relative w-full h-64"> {/* Pastikan container-nya relative */}
+              <Image
+                src="https://scontent.fbdo1-1.fna.fbcdn.net/v/t39.30808-6/510696567_2409814969376130_3257008856448179887_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG57bzEVQ8V43PqCwPrL9zy8tTvz31l48Ly1O_PfWXjwhdWuNELzN9kiNpjXIpsEwBBt7C6omdI4QMbJldqPKbO&_nc_ohc=HyvQavIiYHEQ7kNvwFAydKe&_nc_oc=AdmcPqWW2bFvSWsnDFx0ID-u38rHWHLvVD9HUYP0zKwiRXlT72GehiI_WeYOZU4S9Ho&_nc_zt=23&_nc_ht=scontent.fbdo1-1.fna&_nc_gid=KqukgdMv_FNEjpYrGnCx9Q&oh=00_AfOGAWERHGaGnhLY5T-clmICjHR6S0cbZWmCrT_0UDk_dw&oe=68609E3D"
+                alt="TreeSetia - About Me"
+                fill
+                style={{ objectFit: 'cover' }}
+                className="transition-transform duration-300 hover:scale-105"
+                />
+            </div>
           </div>
           <h2 className="text-3xl font-bold text-textDark mb-2">Fitri Setiawati</h2> {/* Teks gelap */}
           <p className="text-lg text-textMedium text-center mb-4"> {/* Teks sekunder */}
