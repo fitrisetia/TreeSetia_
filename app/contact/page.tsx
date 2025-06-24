@@ -71,10 +71,10 @@ export default function ContactPage() {
               <div className="flex gap-4 flex-wrap">
                 {/* --- PERUBAHAN 3: Semua <a> diganti dengan <Link> --- */}
                 <Link href="#" target="_blank" title="LinkedIn" className="p-3 bg-black/20 rounded-full hover:bg-[var(--accent-navy-light)] transition-colors"><Linkedin /></Link>
-                <Link href="https://www.instagram.com/_likestory2_/" target="_blank" title="Instagram" className="p-3 bg-black/20 rounded-full hover:bg-[var(--accent-navy-light)] transition-colors"><Instagram /></Link>
-                <Link href="https://x.com/0nol_" target="_blank" title="X (Twitter)" className="p-3 bg-black/20 rounded-full hover:bg-[var(--accent-navy-light)] transition-colors"><XIcon /></Link>
-                <Link href="#" target="_blank" title="Facebook" className="p-3 bg-black/20 rounded-full hover:bg-[var(--accent-navy-light)] transition-colors"><FacebookIcon /></Link>
-                <Link href="#" target="_blank" title="YouTube" className="p-3 bg-black/20 rounded-full hover:bg-[var(--accent-navy-light)] transition-colors"><YouTubeIcon /></Link>
+                <Link href="https://www.instagram.com/_fitrisetia_/" target="_blank" title="Instagram" className="p-3 bg-black/20 rounded-full hover:bg-[var(--accent-navy-light)] transition-colors"><Instagram /></Link>
+                <Link href="#" target="_blank" title="X (Twitter)" className="p-3 bg-black/20 rounded-full hover:bg-[var(--accent-navy-light)] transition-colors"><XIcon /></Link>
+                <Link href="https://web.facebook.com/andia.nurfitta/" target="_blank" title="Facebook" className="p-3 bg-black/20 rounded-full hover:bg-[var(--accent-navy-light)] transition-colors"><FacebookIcon /></Link>
+                <Link href="https://www.youtube.com/@fitrisetia2" target="_blank" title="YouTube" className="p-3 bg-black/20 rounded-full hover:bg-[var(--accent-navy-light)] transition-colors"><YouTubeIcon /></Link>
                 <Link href="#" target="_blank" title="TikTok" className="p-3 bg-black/20 rounded-full hover:bg-[var(--accent-navy-light)] transition-colors"><TikTokIcon /></Link>
               </div>
             </div>
