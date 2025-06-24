@@ -4,7 +4,7 @@ date: "2025-06-25"
 excerpt: "Malam hari menyimpan pesona yang berbeda. Dari gemerlap lampu kota hingga keheningan alam di bawah bintang, mari kita jelajahi dunia fotografi minim cahaya..."
 author: "Fitri Setiawati"
 tags: ["Fotografi", "Teknik", "Inspirasi"]
-coverImage: ""
+coverImage: "https://i.pinimg.com/736x/65/5e/7f/655e7f1521fb6615191eca77bb477c68.jpg"
 ---
 
 Selalu ada sesuatu yang magis tentang malam hari. Saat dunia melambat, cahaya buatan manusia mengambil alih, menciptakan bayangan dan warna yang tidak akan pernah kita lihat di siang hari. Bagi seorang fotografer, ini adalah tantangan sekaligus kanvas yang luar biasa untuk dilukis dengan cahaya.
