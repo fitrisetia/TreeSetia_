@@ -106,9 +106,15 @@ function ContentShowcase() {
               </div>
               <div className="space-y-4 mb-6">
                 {latestPosts.map(post => (
-                  <Link key={post.id} href={post.href} className="block p-4 rounded-lg hover:bg-white/5 group">
-                    <p className="font-semibold text-lg group-hover:text-[var(--accent-navy-light)] transition-colors">{post.title}</p>
-                  </Link>
+                 <Link
+                   key={post.id}
+                   href={`/blog/${post.id}`}
+                   className="block p-4 rounded-lg hover:bg-white/5 group"
+                   >
+                   <p className="font-semibold text-lg group-hover:text-[var(--accent-navy-light)] transition-colors">
+                     {post.title}
+                   </p>
+                 </Link>
                 ))}
               </div>
               <Link href="/blog" className="inline-flex items-center font-semibold text-[var(--accent-navy-light)] hover:text-white group">
