@@ -17,10 +17,10 @@ function HeroSection() {
       <div className="max-w-4xl mx-auto">
         <div className="relative w-48 h-48 sm:w-56 sm:h-56 mx-auto rounded-full overflow-hidden shadow-2xl mb-8 border-4 border-[var(--accent-navy-light)]">
           <Image
-            src="/profile.jpg" // Pastikan gambar ini ada di folder /public
+            src="https://scontent.fbdo1-1.fna.fbcdn.net/v/t39.30808-6/510696567_2409814969376130_3257008856448179887_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG57bzEVQ8V43PqCwPrL9zy8tTvz31l48Ly1O_PfWXjwhdWuNELzN9kiNpjXIpsEwBBt7C6omdI4QMbJldqPKbO&_nc_ohc=HyvQavIiYHEQ7kNvwFAydKe&_nc_oc=AdmcPqWW2bFvSWsnDFx0ID-u38rHWHLvVD9HUYP0zKwiRXlT72GehiI_WeYOZU4S9Ho&_nc_zt=23&_nc_ht=scontent.fbdo1-1.fna&_nc_gid=KqukgdMv_FNEjpYrGnCx9Q&oh=00_AfOGAWERHGaGnhLY5T-clmICjHR6S0cbZWmCrT_0UDk_dw&oe=68609E3D"
             alt="Fitri Setiawati - Profile Picture"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             className="transition-transform duration-500 hover:scale-105"
             priority
           />
